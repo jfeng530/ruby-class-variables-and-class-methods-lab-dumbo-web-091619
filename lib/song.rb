@@ -24,6 +24,10 @@ class Song
   def self.artists
     Song.all.map {|song| song.artist}.uniq
   end 
+  
+  def self.genres 
+    
+  end 
 
 end
   
