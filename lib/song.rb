@@ -22,7 +22,7 @@ class Song
   end
   
   def self.artists
-    Song.all.map {|song| song.artist}
+    Song.all.map {|song| song.artist}.uniq
   end 
 
 end
